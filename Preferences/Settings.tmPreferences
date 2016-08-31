@@ -9,7 +9,12 @@
 	<key>settings</key>
 	<dict>
 		<key>increaseIndentPattern</key>
-		<string>\b(then|else|do|function)\b(?!.*\bend\b)|\brepeat\b(?!.*\buntil\b)|\{(?!.*\})</string>
+		<string>(?x)
+			  \{                           (?!.* \})
+			| \b(then)\b                   (?!.* \b(else(if)?)\b)
+			| \b(then|else|do|function)\b  (?!.* \b(end)\b)
+			| \b(repeat)\b                 (?!.* \b(until)\b)
+		</string>
 		<key>decreaseIndentPattern</key>
 		<string>(?x)
 			^(
