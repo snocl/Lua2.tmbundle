@@ -72,6 +72,23 @@
 		</dict>
 		<dict>
 			<key>match</key>
+			<string>(0x[0-9A-Fa-f]+|[0-9]*\.[0-9]+(?:[Ee][-+]?[0-9]+)?|[0-9]+\.?)(\.[0-9]*(?:[Ee][-+]?[0-9]+)?)?</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>constant.numeric.lua</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>invalid.illegal.lua</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>match</key>
 			<string>[-+*/%\^#]|~=|[=&lt;&gt;]=?|\.\.\.?</string>
 			<key>name</key>
 			<string>keyword.operator.lua</string>
