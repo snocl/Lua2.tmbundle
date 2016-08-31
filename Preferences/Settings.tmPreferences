@@ -14,8 +14,9 @@
 		<string>(?x)
 			^(
 				  [^{]* \}
-				| ((?!\b(then|else|do|function)\b) .)* \b(end)\b
-				| ((?!\b(repeat)\b) .)*                \b(until)\b
+				| ((?!\b(then)\b) .)*                   \b(else(if)?)\b
+				| ((?!\b(then|else|do|function)\b) .)*  \b(end)\b
+				| ((?!\b(repeat)\b) .)*                 \b(until)\b
 			)
 		</string>
 		<key>foldingStartMarker</key>
