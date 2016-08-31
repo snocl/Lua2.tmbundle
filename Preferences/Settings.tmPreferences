@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Settings</string>
+	<key>scope</key>
+	<string>source.lua2</string>
+	<key>settings</key>
+	<dict>
+		<key>increaseIndentPattern</key>
+		<string>\b(then|else|do|function)\b(?!.*\bend\b)|\brepeat\b(?!.*\buntil\b)|\{(?!.*\})</string>
+		<key>decreaseIndentPattern</key>
+		<string>\b(end|until)\b|\}</string>
+		<key>foldingStartMarker</key>
+		<string>\b(then|else|do|function|repeat)\b|\{</string>
+		<key>foldingStopMarker</key>
+		<string>\b(end|until)\b|\}</string>
+		<key>smartTypingPairs</key>
+		<array>
+			<array>
+				<string>{</string>
+				<string>}</string>
+			</array>
+			<array>
+				<string>[</string>
+				<string>]</string>
+			</array>
+			<array>
+				<string>(</string>
+				<string>)</string>
+			</array>
+			<array>
+				<string>"</string>
+				<string>"</string>
+			</array>
+			<array>
+				<string>'</string>
+				<string>'</string>
+			</array>
+		</array>
+	</dict>
+	<key>uuid</key>
+	<string>7FF2645E-5A6A-484E-8E35-90EDF1B9B184</string>
+</dict>
+</plist>

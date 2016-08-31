@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string></string>
+	<key>contactName</key>
+	<string>Snorre</string>
+	<key>description</key>
+	<string>New shiny bundle for Lua.</string>
+	<key>name</key>
+	<string>Lua2</string>
+	<key>uuid</key>
+	<string>001FCFD6-B4D7-432E-99F0-E3367FD5C713</string>
+</dict>
+</plist>
