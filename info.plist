@@ -12,5 +12,93 @@
 	<string>Lua2</string>
 	<key>uuid</key>
 	<string>001FCFD6-B4D7-432E-99F0-E3367FD5C713</string>
+  <key>mainMenu</key>
+  <dict>
+    <key>items</key>
+    <array>
+      <string>6bfdecf6-2fe4-45a8-83b1-2bf535f5c07a</string>
+    </array>
+    <key>submenus</key>
+    <dict>
+      <key>6bfdecf6-2fe4-45a8-83b1-2bf535f5c07a</key>
+      <dict>
+        <key>name</key>
+        <string>Snippets</string>
+        <key>items</key>
+        <array>
+          <!-- self. -->
+          <string>E8128DB6-AF28-4ABA-A1EE-334584D19BE5</string>
+          <!-- self: -->
+          <string>03d840f8-ef74-4a17-b6de-c0dbe61a451a</string>
+          
+          <string>------------------------------------</string>
+          
+          <!-- function -->
+          <string>396f6a86-fe75-4487-892f-59b9aac2894c</string>
+          <!-- local -->      
+          <string>9f50eb1b-eff9-4eaa-b6dc-2862f2c632a8</string>
+          
+          <string>------------------------------------</string>
+          
+          <!-- for -->
+          <string>cc96bc1d-f72d-47f6-be7c-493ecdd54ca0</string>
+          <!-- for pairs -->
+          <string>cb0ae326-ee13-487b-8d41-2ae54d3330f7</string>
+          
+          <string>ec648f3e-174f-4940-9385-26caffcb7862</string>
+          
+          <string>------------------------------------</string>
+          
+          <!-- print -->
+          <string>78ea384d-a123-42c3-a000-2c428d6f2ea7</string>
+          <!-- printf -->
+          <string>2d19df89-16eb-4733-8090-76d7398c8f67</string>
+          
+          <string>------------------------------------</string>
+          
+          <!-- table.insert -->
+          <string>f904dde3-9ae1-4bd6-bba8-4437934b4c2a</string>
+          <!-- setmetatable -->
+          <string>86997092-f814-443e-b612-6130f84a3f99</string>
+          
+          <string>------------------------------------</string>
+          
+          <!-- love -->
+          <string>14928de0-f0c2-454e-9f28-93468c09eb15</string>
+          <!-- love.graphics -->
+          <string>8d516c05-0bb1-48a8-b0ad-4b0096b57b91</string>
+          <!-- love.window -->
+          <string>23c5ee51-c89d-428b-85b5-b4ebef6f7deb</string>
+          <!-- love.keyboard -->
+          <string>0d2d1dc0-2d93-4d02-a436-c3db72043317</string>
+          
+          <!-- free -->
+          <!-- https://www.uuidgenerator.net/version4 -->
+          <!-- ([a-zA-Z0-9\-]+) => <string>$1</string> -->
+          
+
+          
+
+          
+
+          <string>bca0d169-db10-434f-9c36-17cb359e0096</string>
+
+          <string>c47a399f-f7f3-4259-8ffd-8ec957bb9992</string>
+
+          <string>1469742a-48d9-49b7-b055-55ad9744ac32</string>
+
+          <string>d5a32668-b052-4d13-9fbe-abf557b8e342</string>
+
+          <string>895884c9-f779-4466-bbb9-bced2a55a647</string>
+
+          <string>57c3a7bd-3b55-4e36-b142-a9ce71ad9a94</string>
+
+          <string>a257c316-62e8-4814-8e17-18a278a72aec</string>
+          
+          
+        </array>
+      </dict>
+    </dict>
+  </dict>
 </dict>
 </plist>

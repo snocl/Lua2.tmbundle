@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>love.graphics.</string>
+	<key>name</key>
+	<string>love.graphics.</string>
+	<key>scope</key>
+	<string>source.lua2</string>
+	<key>tabTrigger</key>
+	<string>love.g</string>
+	<key>uuid</key>
+	<string>8d516c05-0bb1-48a8-b0ad-4b0096b57b91</string>
+</dict>
+</plist>
